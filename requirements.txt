@@ -5,4 +5,4 @@ psycopg2-binary
 django-widget-tweaks
 django-crispy-forms
 django-login-required-middleware
-Django==3.2.25
+Django 4.2.16
