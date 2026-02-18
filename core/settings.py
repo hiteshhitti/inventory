@@ -44,8 +44,7 @@ INSTALLED_APPS = [
     'transactions',
 
     'widget_tweaks',                            # uses 'django-widget-tweaks' app
-    'crispy_forms',                             # uses 'django-crispy-forms' app
-    'login_required',                           # uses 'django-login-required-middleware' app
+    'crispy_forms',                             # uses 'django-crispy-forms' app                           # uses 'django-login-required-middleware' app
 ]
 
 MIDDLEWARE = [
