@@ -5,3 +5,4 @@ django-widget-tweaks
 django-crispy-forms
 django-login-required-middleware
 django-filter
+crispy-bootstrap4

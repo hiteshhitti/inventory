@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'transactions',
 
     'widget_tweaks',                            # uses 'django-widget-tweaks' app
-    'crispy_forms',                             # uses 'django-crispy-forms' app                           # uses 'django-login-required-middleware' app
+    'crispy_forms',
+    'crispy_bootstrap4',                             # uses 'django-crispy-forms' app                           # uses 'django-login-required-middleware' app
 ]
 
 MIDDLEWARE = [
@@ -147,7 +148,9 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'                     # bootstrap template crispy-form uses
+CRISPY_TEMPLATE_PACK = 'bootstrap4'    
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"                 # bootstrap template crispy-form uses
 
 LOGIN_REDIRECT_URL = 'home'                             # sets the login redirect to the 'home' page after login
 
