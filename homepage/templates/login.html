@@ -46,7 +46,8 @@
                     {% csrf_token %}
                     <fieldset class="form-group">
                         <div class="align-middle"><legend class="border-bottom mb-4">Please Login to use Invi</legend></div>
-                        {{ form|crispy }}
+                        <!-- {{ form|crispy }} -->
+                          {{ form.as_p }}
                     </fieldset>
                     <div class="form-group">
                         <div class="align-middle"> 
